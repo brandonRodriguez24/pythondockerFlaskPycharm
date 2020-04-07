@@ -27,6 +27,7 @@ def cities_import() -> List[Dict]:
 
 
 
+
 @app.route('/')
 def index() -> str:
     js = json.dumps(cities_import())
